@@ -5,7 +5,7 @@ body {
 	color: #fff;
 }
 
-.container {
+.container-lista {
 	max-width: 350px;
 }
 
@@ -92,5 +92,42 @@ input {
 	height: 3rem;
 	width: 3rem;
 	margin: 0 auto;
+	
+}
+
+@media (max-width:768px) {
+
+	
+	.img-main img {
+		width: 350px;
+	}
+
+	input {
+		border-radius: 40px;
+		font-size: 14px;
+		height: 40px;
+		width: 85%;
+		padding-left: 3rem;
+		padding-right: 1rem;
+		outline: unset;
+		border: none;
+	}
+	
+	.pesquisa {
+		text-align: unset;
+		margin-top: -20px;
+		
+	}
+
+	.menu ul{
+		padding-left: 14rem;
+	}
+
+	
+
+	.row>* {
+		width: 88px;
+		margin: 0 auto;
+	}
 	
 }
